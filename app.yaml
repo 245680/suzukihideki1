@@ -5,5 +5,5 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /
-  script: test.php
+- url: /(.+\.php)$
+  script: \1
