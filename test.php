@@ -12,4 +12,5 @@ $context = [
 ];
 $context = stream_context_create($context);
 $result = file_get_contents('http://1.pt100t.sinaapp.com/pushdemo.php', false, $context);
+echo $result;
 ?>
