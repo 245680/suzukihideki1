@@ -8,4 +8,4 @@ handlers:
 - url: /(.+\.php)$
   script: \1
 - url: /
-  script: new.htm
+  script: new.php
